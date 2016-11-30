@@ -1,0 +1,43 @@
+{
+  "name": "packer",
+  "version": "0.1.0",
+  "description": "universal react packer",
+  "main": "index.js",
+  "bin": {
+    "pack": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "packer"
+  ],
+  "author": "Ling.",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "chalk": "^1.1.3",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-webpack": "^1.5.0",
+    "interpret": "^1.0.1",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "liftoff": "^2.3.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "v8flags": "^2.0.11",
+    "webpack": "^1.13.3",
+    "yargs": "^6.4.0"
+  }
+}
